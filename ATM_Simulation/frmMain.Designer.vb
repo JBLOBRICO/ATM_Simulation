@@ -14,253 +14,259 @@ Partial Class frmMain
         End Try
     End Sub
 
-    'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
 
-    'NOTE: The following procedure is required by the Windows Form Designer
-    'It can be modified using the Windows Form Designer.  
-    'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        btnBalanceInquiry = New Button()
-        btnWithdrawal = New Button()
-        btnMiniStatement = New Button()
-        btnDeposit = New Button()
-        btnFundTransfer = New Button()
-        btnLogout = New Button()
-        PictureBox1 = New PictureBox()
-        Panel1 = New Panel()
-        lblUserAccountNumber = New Label()
-        lbl = New Label()
-        lblUser = New Label()
-        lblGreetings = New Label()
-        TextBox2 = New TextBox()
-        Panel2 = New Panel()
-        TextBox1 = New TextBox()
-        lblAccountNumberDisplay = New Label()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
-        Panel1.SuspendLayout()
-        Panel2.SuspendLayout()
-        SuspendLayout()
-        ' 
-        ' btnBalanceInquiry
-        ' 
-        btnBalanceInquiry.BackColor = Color.DarkOliveGreen
-        btnBalanceInquiry.FlatAppearance.BorderSize = 0
-        btnBalanceInquiry.FlatStyle = FlatStyle.Flat
-        btnBalanceInquiry.Font = New Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        btnBalanceInquiry.ForeColor = Color.White
-        btnBalanceInquiry.Location = New Point(14, 28)
-        btnBalanceInquiry.Margin = New Padding(3, 4, 3, 4)
-        btnBalanceInquiry.Name = "btnBalanceInquiry"
-        btnBalanceInquiry.Size = New Size(232, 51)
-        btnBalanceInquiry.TabIndex = 0
-        btnBalanceInquiry.Text = "Balance Inquiry"
-        btnBalanceInquiry.UseVisualStyleBackColor = False
-        ' 
-        ' btnWithdrawal
-        ' 
-        btnWithdrawal.BackColor = Color.DarkOliveGreen
-        btnWithdrawal.FlatAppearance.BorderSize = 0
-        btnWithdrawal.FlatStyle = FlatStyle.Flat
-        btnWithdrawal.Font = New Font("Century Gothic", 12F, FontStyle.Bold)
-        btnWithdrawal.ForeColor = Color.White
-        btnWithdrawal.Location = New Point(14, 104)
-        btnWithdrawal.Margin = New Padding(3, 4, 3, 4)
-        btnWithdrawal.Name = "btnWithdrawal"
-        btnWithdrawal.Size = New Size(232, 51)
-        btnWithdrawal.TabIndex = 1
-        btnWithdrawal.Text = "Withdrawal"
-        btnWithdrawal.UseVisualStyleBackColor = False
-        ' 
-        ' btnMiniStatement
-        ' 
-        btnMiniStatement.BackColor = Color.DarkOliveGreen
-        btnMiniStatement.FlatAppearance.BorderSize = 0
-        btnMiniStatement.FlatStyle = FlatStyle.Flat
-        btnMiniStatement.Font = New Font("Century Gothic", 12F, FontStyle.Bold)
-        btnMiniStatement.ForeColor = Color.White
-        btnMiniStatement.Location = New Point(14, 180)
-        btnMiniStatement.Margin = New Padding(3, 4, 3, 4)
-        btnMiniStatement.Name = "btnMiniStatement"
-        btnMiniStatement.Size = New Size(232, 51)
-        btnMiniStatement.TabIndex = 2
-        btnMiniStatement.Text = "Mini Statement"
-        btnMiniStatement.UseVisualStyleBackColor = False
-        ' 
-        ' btnDeposit
-        ' 
-        btnDeposit.BackColor = Color.DarkOliveGreen
-        btnDeposit.FlatAppearance.BorderSize = 0
-        btnDeposit.FlatStyle = FlatStyle.Flat
-        btnDeposit.Font = New Font("Century Gothic", 12F, FontStyle.Bold)
-        btnDeposit.ForeColor = Color.White
-        btnDeposit.Location = New Point(298, 28)
-        btnDeposit.Margin = New Padding(3, 4, 3, 4)
-        btnDeposit.Name = "btnDeposit"
-        btnDeposit.Size = New Size(232, 51)
-        btnDeposit.TabIndex = 3
-        btnDeposit.Text = "Deposit"
-        btnDeposit.UseVisualStyleBackColor = False
-        ' 
-        ' btnFundTransfer
-        ' 
-        btnFundTransfer.BackColor = Color.DarkOliveGreen
-        btnFundTransfer.FlatAppearance.BorderSize = 0
-        btnFundTransfer.FlatStyle = FlatStyle.Flat
-        btnFundTransfer.Font = New Font("Century Gothic", 12F, FontStyle.Bold)
-        btnFundTransfer.ForeColor = Color.White
-        btnFundTransfer.Location = New Point(298, 104)
-        btnFundTransfer.Margin = New Padding(3, 4, 3, 4)
-        btnFundTransfer.Name = "btnFundTransfer"
-        btnFundTransfer.Size = New Size(232, 51)
-        btnFundTransfer.TabIndex = 4
-        btnFundTransfer.Text = "Fund Transfer"
-        btnFundTransfer.UseVisualStyleBackColor = False
-        ' 
-        ' btnLogout
-        ' 
-        btnLogout.BackColor = Color.Brown
-        btnLogout.FlatAppearance.BorderSize = 0
-        btnLogout.FlatStyle = FlatStyle.Flat
-        btnLogout.Font = New Font("Century Gothic", 12F, FontStyle.Bold)
-        btnLogout.ForeColor = Color.White
-        btnLogout.Location = New Point(298, 180)
-        btnLogout.Margin = New Padding(3, 4, 3, 4)
-        btnLogout.Name = "btnLogout"
-        btnLogout.Size = New Size(232, 51)
-        btnLogout.TabIndex = 5
-        btnLogout.Text = "Logout"
-        btnLogout.UseVisualStyleBackColor = False
-        ' 
+        Me.btnBalanceInquiry = New System.Windows.Forms.Button()
+        Me.btnWithdrawal = New System.Windows.Forms.Button()
+        Me.btnMiniStatement = New System.Windows.Forms.Button()
+        Me.btnDeposit = New System.Windows.Forms.Button()
+        Me.btnFundTransfer = New System.Windows.Forms.Button()
+        Me.btnLogout = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.lblAccountNumberDisplay = New System.Windows.Forms.Label()
+        Me.lblUserAccountNumber = New System.Windows.Forms.Label()
+        Me.lbl = New System.Windows.Forms.Label()
+        Me.lblUser = New System.Windows.Forms.Label()
+        Me.lblGreetings = New System.Windows.Forms.Label()
+        Me.lblTitle = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
+        Me.SuspendLayout()
+        '
         ' PictureBox1
-        ' 
-        PictureBox1.Image = My.Resources.Resources.ATM_UI_UX___南街_西洋菜
-        PictureBox1.Location = New Point(0, -3)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(818, 529)
-        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-        PictureBox1.TabIndex = 6
-        PictureBox1.TabStop = False
-        ' 
-        ' Panel1
-        ' 
-        Panel1.Controls.Add(lblAccountNumberDisplay)
-        Panel1.Controls.Add(lblUserAccountNumber)
-        Panel1.Controls.Add(lbl)
-        Panel1.Controls.Add(lblUser)
-        Panel1.Controls.Add(lblGreetings)
-        Panel1.Controls.Add(TextBox2)
-        Panel1.Controls.Add(Panel2)
-        Panel1.Location = New Point(82, 54)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(648, 408)
-        Panel1.TabIndex = 7
-        ' 
-        ' lblUserAccountNumber
-        ' 
-        lblUserAccountNumber.AutoSize = True
-        lblUserAccountNumber.Font = New Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblUserAccountNumber.Location = New Point(185, 56)
-        lblUserAccountNumber.Name = "lblUserAccountNumber"
-        lblUserAccountNumber.Size = New Size(15, 23)
-        lblUserAccountNumber.TabIndex = 15
-        lblUserAccountNumber.Text = " "
-        ' 
-        ' lbl
-        ' 
-        lbl.AutoSize = True
-        lbl.Font = New Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lbl.Location = New Point(15, 56)
-        lbl.Name = "lbl"
-        lbl.Size = New Size(177, 23)
-        lbl.TabIndex = 14
-        lbl.Text = "Account Number: "
-        ' 
-        ' lblUser
-        ' 
-        lblUser.AutoSize = True
-        lblUser.Font = New Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblUser.Location = New Point(75, 18)
-        lblUser.Name = "lblUser"
-        lblUser.Size = New Size(15, 23)
-        lblUser.TabIndex = 13
-        lblUser.Text = " "
-        ' 
-        ' lblGreetings
-        ' 
-        lblGreetings.AutoSize = True
-        lblGreetings.Font = New Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblGreetings.Location = New Point(15, 18)
-        lblGreetings.Name = "lblGreetings"
-        lblGreetings.Size = New Size(67, 23)
-        lblGreetings.TabIndex = 12
-        lblGreetings.Text = "Hello, "
-        ' 
-        ' TextBox2
-        ' 
-        TextBox2.BackColor = Color.AntiqueWhite
-        TextBox2.BorderStyle = BorderStyle.None
-        TextBox2.Location = New Point(69, 114)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(118, 20)
-        TextBox2.TabIndex = 11
-        TextBox2.Text = "    Transaction"
-        ' 
-        ' Panel2
-        ' 
-        Panel2.BorderStyle = BorderStyle.FixedSingle
-        Panel2.Controls.Add(TextBox1)
-        Panel2.Controls.Add(btnLogout)
-        Panel2.Controls.Add(btnBalanceInquiry)
-        Panel2.Controls.Add(btnDeposit)
-        Panel2.Controls.Add(btnWithdrawal)
-        Panel2.Controls.Add(btnMiniStatement)
-        Panel2.Controls.Add(btnFundTransfer)
-        Panel2.Location = New Point(54, 130)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(550, 263)
-        Panel2.TabIndex = 8
-        ' 
-        ' TextBox1
-        ' 
-        TextBox1.BorderStyle = BorderStyle.None
-        TextBox1.Location = New Point(14, -17)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(128, 20)
-        TextBox1.TabIndex = 10
-        ' 
+        ' (Initialized to avoid errors — Image property is left Nothing to prevent missing-resource compile issues)
+        '
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(820, 520)
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.Image = Nothing ' <-- If you have a resource, replace Nothing with: My.Resources.YourImageName
+        '
+        ' btnBalanceInquiry
+        '
+        Me.btnBalanceInquiry.BackColor = System.Drawing.Color.FromArgb(0, 123, 255)
+        Me.btnBalanceInquiry.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnBalanceInquiry.FlatAppearance.BorderSize = 0
+        Me.btnBalanceInquiry.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnBalanceInquiry.ForeColor = System.Drawing.Color.White
+        Me.btnBalanceInquiry.Location = New System.Drawing.Point(30, 30)
+        Me.btnBalanceInquiry.Name = "btnBalanceInquiry"
+        Me.btnBalanceInquiry.Size = New System.Drawing.Size(250, 55)
+        Me.btnBalanceInquiry.TabIndex = 0
+        Me.btnBalanceInquiry.Text = "Balance Inquiry"
+        Me.btnBalanceInquiry.UseVisualStyleBackColor = False
+        '
+        ' btnWithdrawal
+        '
+        Me.btnWithdrawal.BackColor = System.Drawing.Color.FromArgb(0, 123, 255)
+        Me.btnWithdrawal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnWithdrawal.FlatAppearance.BorderSize = 0
+        Me.btnWithdrawal.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnWithdrawal.ForeColor = System.Drawing.Color.White
+        Me.btnWithdrawal.Location = New System.Drawing.Point(30, 110)
+        Me.btnWithdrawal.Name = "btnWithdrawal"
+        Me.btnWithdrawal.Size = New System.Drawing.Size(250, 55)
+        Me.btnWithdrawal.TabIndex = 1
+        Me.btnWithdrawal.Text = "Withdrawal"
+        Me.btnWithdrawal.UseVisualStyleBackColor = False
+        '
+        ' btnMiniStatement
+        '
+        Me.btnMiniStatement.BackColor = System.Drawing.Color.FromArgb(0, 123, 255)
+        Me.btnMiniStatement.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMiniStatement.FlatAppearance.BorderSize = 0
+        Me.btnMiniStatement.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnMiniStatement.ForeColor = System.Drawing.Color.White
+        Me.btnMiniStatement.Location = New System.Drawing.Point(30, 190)
+        Me.btnMiniStatement.Name = "btnMiniStatement"
+        Me.btnMiniStatement.Size = New System.Drawing.Size(250, 55)
+        Me.btnMiniStatement.TabIndex = 2
+        Me.btnMiniStatement.Text = "Mini Statement"
+        Me.btnMiniStatement.UseVisualStyleBackColor = False
+        '
+        ' btnDeposit
+        '
+        Me.btnDeposit.BackColor = System.Drawing.Color.FromArgb(40, 167, 69)
+        Me.btnDeposit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDeposit.FlatAppearance.BorderSize = 0
+        Me.btnDeposit.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnDeposit.ForeColor = System.Drawing.Color.White
+        Me.btnDeposit.Location = New System.Drawing.Point(320, 30)
+        Me.btnDeposit.Name = "btnDeposit"
+        Me.btnDeposit.Size = New System.Drawing.Size(250, 55)
+        Me.btnDeposit.TabIndex = 3
+        Me.btnDeposit.Text = "Deposit"
+        Me.btnDeposit.UseVisualStyleBackColor = False
+        '
+        ' btnFundTransfer
+        '
+        Me.btnFundTransfer.BackColor = System.Drawing.Color.FromArgb(40, 167, 69)
+        Me.btnFundTransfer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnFundTransfer.FlatAppearance.BorderSize = 0
+        Me.btnFundTransfer.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnFundTransfer.ForeColor = System.Drawing.Color.White
+        Me.btnFundTransfer.Location = New System.Drawing.Point(320, 110)
+        Me.btnFundTransfer.Name = "btnFundTransfer"
+        Me.btnFundTransfer.Size = New System.Drawing.Size(250, 55)
+        Me.btnFundTransfer.TabIndex = 4
+        Me.btnFundTransfer.Text = "Fund Transfer"
+        Me.btnFundTransfer.UseVisualStyleBackColor = False
+        '
+        ' btnLogout
+        '
+        Me.btnLogout.BackColor = System.Drawing.Color.FromArgb(220, 53, 69)
+        Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnLogout.FlatAppearance.BorderSize = 0
+        Me.btnLogout.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnLogout.ForeColor = System.Drawing.Color.White
+        Me.btnLogout.Location = New System.Drawing.Point(320, 190)
+        Me.btnLogout.Name = "btnLogout"
+        Me.btnLogout.Size = New System.Drawing.Size(250, 55)
+        Me.btnLogout.TabIndex = 5
+        Me.btnLogout.Text = "Logout"
+        Me.btnLogout.UseVisualStyleBackColor = False
+        '
+        ' Panel1 (container)
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(248, 249, 250)
+        Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.Panel1.Controls.Add(Me.lblAccountNumberDisplay)
+        Me.Panel1.Controls.Add(Me.lblUserAccountNumber)
+        Me.Panel1.Controls.Add(Me.lbl)
+        Me.Panel1.Controls.Add(Me.lblUser)
+        Me.Panel1.Controls.Add(Me.lblGreetings)
+        Me.Panel1.Controls.Add(Me.lblTitle)
+        Me.Panel1.Controls.Add(Me.Panel2)
+        Me.Panel1.Location = New System.Drawing.Point(50, 40)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(720, 420)
+        Me.Panel1.TabIndex = 7
+        '
         ' lblAccountNumberDisplay
-        ' 
-        lblAccountNumberDisplay.AutoSize = True
-        lblAccountNumberDisplay.Font = New Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        lblAccountNumberDisplay.Location = New Point(185, 56)
-        lblAccountNumberDisplay.Name = "lblAccountNumberDisplay"
-        lblAccountNumberDisplay.Size = New Size(15, 23)
-        lblAccountNumberDisplay.TabIndex = 16
-        lblAccountNumberDisplay.Text = " "
-        ' 
+        '
+        Me.lblAccountNumberDisplay.AutoSize = True
+        Me.lblAccountNumberDisplay.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Regular)
+        Me.lblAccountNumberDisplay.Location = New System.Drawing.Point(200, 80)
+        Me.lblAccountNumberDisplay.Name = "lblAccountNumberDisplay"
+        Me.lblAccountNumberDisplay.Size = New System.Drawing.Size(65, 20)
+        Me.lblAccountNumberDisplay.TabIndex = 16
+        Me.lblAccountNumberDisplay.Text = "0000000"
+        '
+        ' lblUserAccountNumber
+        '
+        Me.lblUserAccountNumber.AutoSize = True
+        Me.lblUserAccountNumber.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Bold)
+        Me.lblUserAccountNumber.Location = New System.Drawing.Point(200, 55)
+        Me.lblUserAccountNumber.Name = "lblUserAccountNumber"
+        Me.lblUserAccountNumber.Size = New System.Drawing.Size(65, 20)
+        Me.lblUserAccountNumber.TabIndex = 15
+        Me.lblUserAccountNumber.Text = "0000000"
+        '
+        ' lbl (label text)
+        '
+        Me.lbl.AutoSize = True
+        Me.lbl.Font = New System.Drawing.Font("Segoe UI", 11.0!, System.Drawing.FontStyle.Bold)
+        Me.lbl.Location = New System.Drawing.Point(30, 55)
+        Me.lbl.Name = "lbl"
+        Me.lbl.Size = New System.Drawing.Size(145, 20)
+        Me.lbl.TabIndex = 14
+        Me.lbl.Text = "Account Number:"
+        '
+        ' lblUser
+        '
+        Me.lblUser.AutoSize = True
+        Me.lblUser.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.lblUser.Location = New System.Drawing.Point(120, 25)
+        Me.lblUser.Name = "lblUser"
+        Me.lblUser.Size = New System.Drawing.Size(85, 21)
+        Me.lblUser.TabIndex = 13
+        Me.lblUser.Text = "UserName"
+        '
+        ' lblGreetings
+        '
+        Me.lblGreetings.AutoSize = True
+        Me.lblGreetings.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.lblGreetings.Location = New System.Drawing.Point(30, 25)
+        Me.lblGreetings.Name = "lblGreetings"
+        Me.lblGreetings.Size = New System.Drawing.Size(67, 21)
+        Me.lblGreetings.TabIndex = 12
+        Me.lblGreetings.Text = "Hello,"
+        '
+        ' lblTitle
+        '
+        Me.lblTitle.AutoSize = True
+        Me.lblTitle.Font = New System.Drawing.Font("Segoe UI Semibold", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblTitle.ForeColor = System.Drawing.Color.FromArgb(0, 123, 255)
+        Me.lblTitle.Location = New System.Drawing.Point(250, 5)
+        Me.lblTitle.Name = "lblTitle"
+        Me.lblTitle.Size = New System.Drawing.Size(210, 30)
+        Me.lblTitle.TabIndex = 11
+        Me.lblTitle.Text = "Banking Operations"
+        Me.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        ' Panel2 (buttons card)
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(233, 236, 239)
+        Me.Panel2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.Panel2.Controls.Add(Me.btnLogout)
+        Me.Panel2.Controls.Add(Me.btnBalanceInquiry)
+        Me.Panel2.Controls.Add(Me.btnDeposit)
+        Me.Panel2.Controls.Add(Me.btnWithdrawal)
+        Me.Panel2.Controls.Add(Me.btnMiniStatement)
+        Me.Panel2.Controls.Add(Me.btnFundTransfer)
+        Me.Panel2.Location = New System.Drawing.Point(60, 130)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(600, 260)
+        Me.Panel2.TabIndex = 8
+        '
+        ' TextBox1 (hidden helper; kept for compatibility)
+        '
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Location = New System.Drawing.Point(14, -17)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(128, 18)
+        Me.TextBox1.TabIndex = 10
+        Me.TextBox1.Visible = False
+        '
+        ' TextBox2 (hidden helper; kept for compatibility)
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.Transparent
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox2.Location = New System.Drawing.Point(69, 114)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(118, 18)
+        Me.TextBox2.TabIndex = 11
+        Me.TextBox2.Text = "Transaction"
+        Me.TextBox2.Visible = False
+        '
         ' frmMain
-        ' 
-        AutoScaleDimensions = New SizeF(9F, 19F)
-        AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.AntiqueWhite
-        ClientSize = New Size(815, 523)
-        Controls.Add(Panel1)
-        Controls.Add(PictureBox1)
-        Font = New Font("Century Gothic", 12F, FontStyle.Bold)
-        FormBorderStyle = FormBorderStyle.FixedSingle
-        Margin = New Padding(3, 4, 3, 4)
-        MaximizeBox = False
-        Name = "frmMain"
-        StartPosition = FormStartPosition.CenterScreen
-        Text = "Banking Operations"
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
-        Panel1.ResumeLayout(False)
-        Panel1.PerformLayout()
-        Panel2.ResumeLayout(False)
-        Panel2.PerformLayout()
-        ResumeLayout(False)
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 22.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
+        Me.ClientSize = New System.Drawing.Size(820, 520)
+        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "ATM Simulation - Main Menu"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
     End Sub
 
     Friend WithEvents btnBalanceInquiry As Button
@@ -272,12 +278,12 @@ Partial Class frmMain
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Panel2 As Panel
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents lblUser As Label
     Friend WithEvents lblGreetings As Label
     Friend WithEvents lblUserAccountNumber As Label
     Friend WithEvents lbl As Label
     Friend WithEvents lblAccountNumberDisplay As Label
-
+    Friend WithEvents lblTitle As Label
 End Class
