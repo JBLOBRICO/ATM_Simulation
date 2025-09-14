@@ -56,5 +56,9 @@
         PanelMain.Controls.Add(child)
         child.Show()
     End Sub
+    Private Sub btnLogout_Click(sender As Object, e As EventArgs)
+        Me.Close()
+        frmLogin.Show() ' Palitan ito depende sa login form mo
+    End Sub
 
 End Class
