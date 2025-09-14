@@ -50,7 +50,7 @@ Partial Class frmReports
         dgvReports.Location = New Point(20, 100)
         dgvReports.Name = "dgvReports"
         dgvReports.RowTemplate.Height = 30
-        dgvReports.Size = New Size(700, 380)
+        dgvReports.Size = New Size(612, 380)
         dgvReports.TabIndex = 2
         ' 
         ' txtSearch
@@ -81,7 +81,7 @@ Partial Class frmReports
         lblTotalTransactions.ForeColor = Color.White
         lblTotalTransactions.Location = New Point(10, 10)
         lblTotalTransactions.Name = "lblTotalTransactions"
-        lblTotalTransactions.Size = New Size(220, 60)
+        lblTotalTransactions.Size = New Size(178, 25)
         lblTotalTransactions.TabIndex = 0
         lblTotalTransactions.Text = "Total Transactions: 0"
         lblTotalTransactions.TextAlign = ContentAlignment.MiddleCenter
@@ -93,7 +93,7 @@ Partial Class frmReports
         lblCompleted.ForeColor = Color.White
         lblCompleted.Location = New Point(10, 10)
         lblCompleted.Name = "lblCompleted"
-        lblCompleted.Size = New Size(220, 60)
+        lblCompleted.Size = New Size(178, 32)
         lblCompleted.TabIndex = 0
         lblCompleted.Text = "Completed: 0"
         lblCompleted.TextAlign = ContentAlignment.MiddleCenter
@@ -105,7 +105,7 @@ Partial Class frmReports
         lblFailed.ForeColor = Color.White
         lblFailed.Location = New Point(10, 10)
         lblFailed.Name = "lblFailed"
-        lblFailed.Size = New Size(220, 60)
+        lblFailed.Size = New Size(178, 26)
         lblFailed.TabIndex = 0
         lblFailed.Text = "Failed: 0"
         lblFailed.TextAlign = ContentAlignment.MiddleCenter
@@ -114,30 +114,30 @@ Partial Class frmReports
         ' 
         pnlTotalTransactions.BackColor = Color.FromArgb(CByte(0), CByte(123), CByte(255))
         pnlTotalTransactions.Controls.Add(lblTotalTransactions)
-        pnlTotalTransactions.Location = New Point(740, 100)
+        pnlTotalTransactions.Location = New Point(638, 199)
         pnlTotalTransactions.Name = "pnlTotalTransactions"
         pnlTotalTransactions.Padding = New Padding(10)
-        pnlTotalTransactions.Size = New Size(240, 80)
+        pnlTotalTransactions.Size = New Size(198, 45)
         pnlTotalTransactions.TabIndex = 3
         ' 
         ' pnlCompleted
         ' 
         pnlCompleted.BackColor = Color.FromArgb(CByte(40), CByte(167), CByte(69))
         pnlCompleted.Controls.Add(lblCompleted)
-        pnlCompleted.Location = New Point(740, 200)
+        pnlCompleted.Location = New Point(638, 141)
         pnlCompleted.Name = "pnlCompleted"
         pnlCompleted.Padding = New Padding(10)
-        pnlCompleted.Size = New Size(240, 80)
+        pnlCompleted.Size = New Size(198, 52)
         pnlCompleted.TabIndex = 4
         ' 
         ' pnlFailed
         ' 
         pnlFailed.BackColor = Color.FromArgb(CByte(220), CByte(53), CByte(69))
         pnlFailed.Controls.Add(lblFailed)
-        pnlFailed.Location = New Point(740, 300)
+        pnlFailed.Location = New Point(638, 89)
         pnlFailed.Name = "pnlFailed"
         pnlFailed.Padding = New Padding(10)
-        pnlFailed.Size = New Size(240, 80)
+        pnlFailed.Size = New Size(198, 46)
         pnlFailed.TabIndex = 5
         ' 
         ' frmReports
